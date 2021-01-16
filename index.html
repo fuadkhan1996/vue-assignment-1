@@ -16,8 +16,8 @@
     <section id="assignment">
       <h2>{{ name }}</h2>
       <p>{{ age }}</p>
-      <p>{{ age + 5 }}</p>
-      <p>{{ getRandomNumber() }}</p>
+      <p>{{ calculateAge() }}</p>
+      <p>Favourite Number: {{ Math.random() }}</p>
       <div>
         <img v-bind:src="imageURL" />
       </div>
